@@ -1,4 +1,3 @@
-// When the program starts, the LED grid will count down from 5 to 1 and show "Happy New Year!" across the screen at the end.
 basic.forever(function () {
     // show number 5
     basic.showNumber(5)
@@ -20,8 +19,7 @@ basic.forever(function () {
     basic.showNumber(1)
     // pause for 1000 ms or 1 second
     basic.pause(1000)
-    // scroll the text "Happy New Year!"
-    basic.showNumber(0)
+    basic.showString("Happy New Year")
     basic.pause(1000)
     basic.clearScreen()
 })
