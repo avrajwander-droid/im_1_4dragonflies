@@ -22,3 +22,4 @@ basic.pause(1000)
 // scroll the text "Happy New Year!"
 basic.showNumber(0)
 basic.pause(1000)
+basic.clearScreen()
